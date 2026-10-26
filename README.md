@@ -1,45 +1,167 @@
-# CampusFind
+# DecodeLabs Internship
 
-CampusFind is a professional MERN Stack Lost & Found Management System for Teerthanker Mahaveer University (TMU), Moradabad.
+## Overview
+This repository contains the internship projects completed as part of the DecodeLabs Full Stack Internship Program. The work is organized into three phases: Responsive Frontend Interface, Backend API Development, and Database Integration.
+
+---
+
+# 1. Responsive Frontend Interface
+
+## Project Overview
+This project is the first milestone of the DecodeLabs Full Stack Internship Program.
+
+The goal is to build a responsive frontend interface using HTML, CSS, and JavaScript while following modern UI/UX principles and mobile-first design.
 
 ## Features
-- User registration and login with JWT auth
-- Lost/found report creation
-- Search, filter, and browse functionality
-- Dashboard for users and admins
-- Claim request workflow
-- MongoDB-ready backend architecture
-- Responsive university portal UI
+- Responsive Design
+- Mobile First Layout
+- Semantic HTML5
+- CSS Flexbox
+- CSS Grid
+- Media Queries
+- Clean UI
+- Interactive JavaScript
+- Smooth Navigation
 
-## Tech Stack
-- Frontend: React + Vite + React Router DOM
-- Backend: Node.js + Express + MongoDB + Mongoose
-- Auth: JWT + bcrypt
-- Styling: Custom CSS
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript (ES6)
 
 ## Project Structure
-- `client/` — frontend app
-- `server/` — backend API
-
-## Run locally
-
-### Frontend
 ```bash
-cd client
-npm install
-npm run dev
+project1/
+│── index.html
+│── style.css
+│── script.js
+└── assets/
 ```
 
-### Backend
+## Responsive Support
+- Mobile
+- Tablet
+- Laptop
+- Desktop
+
+## Learning Outcomes
+- Semantic HTML
+- Responsive Design
+- CSS Grid & Flexbox
+- Mobile First Development
+- JavaScript DOM Manipulation
+
+---
+
+# 2. Backend API Development
+
+## Project Overview
+Project 2 focuses on building REST APIs using Node.js and Express.js.
+
+The backend handles user requests, validates data, and returns proper HTTP responses.
+
+## Features
+- REST API
+- Express Server
+- CRUD Operations
+- Routing
+- Middleware
+- Validation
+- Error Handling
+- JSON Response
+
+## Technologies
+- Node.js
+- Express.js
+- JavaScript
+
+## Folder Structure
 ```bash
-cd server
-npm install
-cp .env.example .env
-npm run dev
+project2/
+│── server.js
+│── package.json
+├── routes/
+├── controllers/
+├── middleware/
 ```
 
-## Environment variables
-Create a `.env` file in the `server` folder using `.env.example`.
+## API Endpoints
+```bash
+GET /api/messages
+GET /api/messages/:id
+POST /api/messages
+PUT /api/messages/:id
+DELETE /api/messages/:id
+```
 
-## Notes
-This project is set up for local development and MongoDB integration.
+## Learning Outcomes
+- REST API
+- HTTP Methods
+- Express Routing
+- Middleware
+- Validation
+- Error Handling
+
+---
+
+# 3. Database Integration
+
+## Project Overview
+Project 3 integrates MongoDB with the backend application using Mongoose.
+
+The application stores, updates, retrieves, and deletes data from the database using REST APIs.
+
+## Features
+- MongoDB Atlas
+- Mongoose
+- Database Connection
+- CRUD Operations
+- Schema Validation
+- Environment Variables
+- Secure API
+
+## Technologies
+- Node.js
+- Express.js
+- MongoDB Atlas
+- Mongoose
+- dotenv
+
+## Folder Structure
+```bash
+project3/
+│── server.js
+│── .env
+├── config/
+├── models/
+├── routes/
+├── controllers/
+└── middleware/
+```
+
+## API Endpoints
+```bash
+GET /api/messages
+GET /api/messages/:id
+POST /api/messages
+PUT /api/messages/:id
+DELETE /api/messages/:id
+```
+
+## Database Schema
+### Message
+- Name
+- Email
+- Message
+
+## Learning Outcomes
+- MongoDB
+- Mongoose
+- Schema Design
+- CRUD Operations
+- Database Validation
+- REST API Integration
+
+---
+
+## Developer
+Divyanshu Kumar Singh
